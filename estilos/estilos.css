@@ -1,5 +1,5 @@
 *{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
     font-size: medium;
     color: #5e5e5e;
     box-sizing: border-box;
@@ -66,7 +66,7 @@
   .foto img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: scale-down;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     transition: transform 0.3s;
@@ -76,9 +76,33 @@
     transform: scale(1.05);
   }
 
+p {
+    margin: auto 50px auto 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: rgba(126, 96, 96, 0.913); 
+}
 
+.fotqui {
+    margin: 50px 50px;
+    float: left;
+    width: 320px;
+    height:300px;
+    border-radius: 8px;
+}
 
+#fotpro{
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-weight: normal;
+    color: blue;
+}
 
+#fotpro:hover {
+    color: rgb(0, 238, 255);
+}
 
 
         
