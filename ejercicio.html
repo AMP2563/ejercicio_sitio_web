@@ -1,42 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
-    
-   <link rel="stylesheet" href="estilos/estilos.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-   
+  <meta charset="UTF-8">
+  <title>Texto alrededor de imagen</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 40px;
+      max-width: 800px;
+    }
+
+    .wrap-img {
+      float: left;
+      margin: 0 20px 20px 0;
+      width: 300px;
+    }
+
+    .wrap-img img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .clear {
+      clear: both;
+    }
+  </style>
 </head>
 <body>
-    <header class="main-header">
-        <h1>EJERCICIO SITIO WEB</h1>
-    </header>
-    <nav>
-        <a href="inicio.html"><i class="fas fa-home colorIcono" ></i></a>      
-       <a href="productos.html">PRODUCTOS</a>
-       <a href="quienes_somos.html">QUIENES SOMOS</a>
-       <a href="donde_estamos.html">DONDE ESTAMOS</a>
 
-    </nav>
-    <h1>INICIO</h1>
-
- <div id="body" class="wrap-img">
+  <div class="wrap-img">
     <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTvwCVKcEydTcamlBVkbATpYPzUuWufaz5iMeVRb-gAZikjhlJQCqlUgcMsyByJ_xz0CQFda9dqyOeNp1alUH47AU-l8JT1DPJRHysQB7OamK9g3bAyRTpYDw" alt="Ordenador">
   </div>
 
-  <p class="pini">
+  <p>
     En el corazón de cada ordenador late un universo de posibilidades. Desde el primer clic hasta las complejas redes que conectan millones de dispositivos, la informática transforma la manera en que vivimos, trabajamos y nos comunicamos.
   </p>
-  <p class="pini">
+  <p>
     Cada procesador es una obra maestra de ingeniería, diseñado para resolver problemas a la velocidad de la luz. Detrás de cada pantalla hay código, algoritmos e ideas que moldean el futuro. La tecnología no solo es herramienta: es el idioma del mañana.
   </p>
-  <p class="pini">
+  <p>
     Los ordenadores no solo calculan, conectan. No solo responden, crean. Son aliados en la educación, pilares de la industria y guardianes del conocimiento humano. En un mundo digital, comprender su lenguaje es tener una llave al futuro.
   </p>
 
   <div class="clear"></div>
-    
+
 </body>
 </html>
